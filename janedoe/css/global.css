@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: #111 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.40);
+}
+
+.head h1 {
+    margin-top: 30px;
+}
+
+.menu ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.menu ul li {
+    margin: 20px;
+    float: left;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #95989C;
+}
+
+.menu .active a {
+    color: #FFC011;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #FFC011;
+}
+
+.footer {
+    text-align: center;
+    background-color: #ECECEC;
+    padding: 15px;
+    bottom: 0 auto;
+}
+
+hr {
+    height: 5px;    
+    background-color: #111;       
+    
+}
+
+
+
+
+.about {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 50px;
+}
+
+.about p {
+    color: #5C5C5C;
+}
+
+.about img {
+    width: 500px;
+    margin: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px 50px 200px;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.subscribe {
+    margin-bottom: 20px;
+}
+
+.form button {
+    width: 60px;
+    padding: 5px;
+    background-color: #FFC011;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.peoples {
+    line-height: 30px;
+    padding: 20px;
+    border-top: solid 1.5px #C5C5C5;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-jane-home {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/jane.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.concept-text {
+    margin: 50px 200px 50px 200px;
+}
+
+.concept-text p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.some-songs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.some-songs img {
+    width: 450px;
+}
+
+.list-songs {
+    height: 100%;
+    align-self: center;
+}
+
+.list-songs ol li {
+    line-height: 30px;
+}
+
+.list-songs ol li strong {
+    color: #FFC011;
+}
+
+.music {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px 50px 200px;
+}
+
+.music h2 {
+    margin-bottom: -10px;
+}
+
+iframe {
+    margin: 50px 0 50px 0;
+}
+
+.list-songs {
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list-songs ul li {
+    line-height: 30px;
+}
+
+.list-songs ul li strong {
+    color: #FFC011;
+}
+
+.desc {
+    line-height: 25px;
+}
+
+
+
+
+

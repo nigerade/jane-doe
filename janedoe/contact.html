@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css" type="text/css"/>
+    <link rel="stylesheet" href="css/contact.css" type="text/css"/>
+    <title>JANE DOE</title>
+</head>
+<body>
+    <header class="head">
+        <h1>JANE DOE</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="#" onclick="alert('Blog estará disponível em breve!')">Blog</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact">
+        <h2>Contact</h2>
+
+        <div class="form">
+            <form id="my-form" name="contact" method="POST" data-netlify="true">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name"/>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email"/>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">How did you found Jane's music?</label>
+
+                    <label>
+                        <input type="radio" name="radio" id="instagram" value="Instagram">
+                        Instagram
+                    </label>
+
+                    <label>
+                        <input type="radio" name="radio" id="facebook" value="Facebook">
+                        Facebook
+                    </label>
+
+                    <label>
+                        <input type="radio" name="radio" id="youtube" value="Youtube">
+                        Youtube
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <div class="subscribe">
+                        <input type="checkbox" name="subscribe" id="subscribe"> Do you want to subscribe to our newsletter?
+                    </div>
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d914.0120561363266!2d-46.67573454225845!3d-23.602603374990267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x739f0ddb0439cf94!2sDigital%20House%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1588288944086!5m2!1spt-BR!2sbr"
+                width="450" height="380" frameborder="0" style="border:0;"
+                allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+        </div>
+
+        <div class="peoples">
+            <h3>MANAGEMENT | Karen Blanche</h3>
+            <label>E-mail: <a href="mailto:info@mysite.com?">karenblanche@gmail.com</a></label>
+            <label>Phone: <a href="tel:+123-456-7890">213-564-1092</a></label>
+        </div>
+
+        <div class="peoples">
+            <h3>BOOKING | Daniel Ku</h3>
+            <label>E-mail: <a href="mailto:info@mysite.com?">daniel.ku@gmail.com</a></label>
+            <label>Phone: <a href="tel:+123-456-7890">849-016-8163</a></label>
+        </div>
+
+        <div class="peoples">
+            <h3>BOOKING | Finlay Crosby</h3>
+            <label>E-mail: <a href="mailto:info@mysite.com?">fincrosby@gmail.com</a></label>
+            <label>Phone: <a href="tel:+123-456-7890">574-678-9012</a></label>
+        </div>
+
+        <div class="peoples">
+            <h3>BOOKING | Connie Cowan</h3>
+            <label>E-mail: <a href="mailto:nicholasgerade@gmail.com">cowan.connie@gmail.com</a></label>
+            <label>Phone: <a href="tel:+123-456-7890">322-701-0136</a></label>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Copyright - Jane Doe</p>
+    </div>
+
+    <script
+        src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+        crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
